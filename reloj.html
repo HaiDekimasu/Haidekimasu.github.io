@@ -14,29 +14,59 @@
     <title> javascript jc </title>
 
 </head>
-<body id="body">  
-<div id="fecha" class="fecha">
-    <div id="alto" class="alto">
-        <div id="ancho" class="ancho">
-            <p id="diasemana" class="diasemana"></p>
-            <p id="dia" class="dia"></p>
-            <p>de</p>
-            <p id="mes" class="mes"></p>
-            <p>del</p>
-            <p id="year" class="year"></p>
+<body id="body"> 
+    <seccion>
+        <div id="fecha" class="fecha">
+            <div id="alto" class="alto">
+                <div id="ancho" class="ancho">
+                    <p id="diasemana" class="diasemana"></p>
+                    <p id="dia" class="dia"></p>
+                    <p>de</p>
+                    <p id="mes" class="mes"></p>
+                    <p>del</p>
+                    <p id="year" class="year"></p>
+                </div>
+                    <div id="numero" class="numero">
+                        <p id="horas" class="horas"></p>
+                        <p >:</p>
+                        <p id="minutos" class="minutos"></p>
+                        <p>:</p>
+                    </div>
+                </div>
+                <div id="caja" class="caja">
+                    <p id="segundos" class="segundos"></p>
+                    <p id="ampm" class="ampm"></p>
+                </div>
+            </div>
         </div>
-    <div id="numero" class="numero">
-        <p id="horas" class="horas"></p>
-        <p >:</p>
-        <p id="minutos" class="minutos"></p>
-        <p>:</p>
-        <div id="caja" class="caja">
-            <p id="segundos" class="segundos"></p>
-            <p id="ampm" class="ampm"></p>
+    </seccion>
+    <section class="weather-content">
+        <h1>Buscador del clima</h1>
+        <div class="result">
+            <p>Agrege cuidad y pais</p>
+            <!-- <h5>Clima en Bogota</h5>
+            <img src="" alt="">
+            <h2>28°C</h2>
+            <p>Max: 29°C</p>
+            <p>Min: 27°C</p> -->
         </div>
+        <form action="" method="POST" class="get-weather">
+            <input type="text" name="city" id="city" placeholder="Write your city...">
+            <select name="" id="country">
+                <option disabled selected value="">Select the country</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR">Costa Rica</option>
+                <option value="ES">España</option>
+                <option value="US">Estados Unidos</option>
+                <option value="MX">México</option>
+                <option value="PE">Perú</option>
+                <option value="CL">Chile</option>
+            </select>
+            <input type="submit" name="" id="" value="Get Weather">
+        </form>
+    </section>
 
-    </div>
-</div>
 <footer>
     <h1>Estado del tiempo</h1>
     <div id="weatherData"></div>
