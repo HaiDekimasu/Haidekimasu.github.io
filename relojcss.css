@@ -9,12 +9,13 @@ body{
     background-size: cover;
 }
 .alto{
-float: left;
-margin-left: 30px;
-font-family: "teko";
-font-size: 50px;
-font-weight: bold;
-color: rgba(255,255,255, 0.7);
+    text-shadow: 1px 7px 9px black;
+    float: left;
+    margin-left: 30px;
+    font-family: "teko";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.7);
 }
 .ancho p{
 display: inline;
