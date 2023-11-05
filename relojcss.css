@@ -36,11 +36,9 @@ color: rgba(255,255,255, 0.7);
 display: inline;
 }
 .caja{
-position:absolute;
-top: 0px;
-bottom: 10px;
-left: 100px;
-right: 10px;
+    position: relative;
+    float: left;
+    
 }
 .segundos{
 font-size: 70px;
