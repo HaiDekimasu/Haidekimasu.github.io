@@ -48,15 +48,15 @@ font-size: 70px;
 position:absolute;
 top: 25px;
 bottom: 10px;
-left: 130px;
+left: 207px;
 right: 10px;
 }
 .ampm{
 font-size: 35px;
 position:absolute;
-top:0px;
+top: 25px;
 bottom: 10px;
-left: 207px;
+left: 227px;
 right: 10px;
 }
 
