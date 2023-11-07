@@ -8,6 +8,14 @@ body{
     background-position: center;
     background-size: cover;
 }
+.cajafecha{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: auto;
+    margin:auto;
+    padding:15px;
+}
 .alto{
     text-shadow: 1px 7px 9px black;
     float: left;
@@ -34,11 +42,6 @@ color: rgba(255,255,255, 0.7);
 }
 .numero p{
 display: inline;
-}
-.caja{
-    position: relative;
-    float: left;
-    
 }
 .segundos{
 font-size: 70px;
