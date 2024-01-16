@@ -28,34 +28,34 @@ body{
     width: 110%;
 }
 .ancho p{
-display: inline;
+    display: inline;
 }
 .numero{
-position: relative;
-margin-left: 10%;
-font-family: "teko";
-font-size: 100px;
-font-weight: bold;
-color: rgba(255,255,255, 0.7);
+    position: relative;
+    margin-left: 10%;
+    font-family: "teko";
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.7);
 }
 .numero p{
-display: inline;
+    display: inline;
 }
 .segundos{
-font-size: 70px;
-position:absolute;
-top: 25px;
-bottom: 10px;
-left: 207px;
-right: 10px;
+    font-size: 70px;
+    position:absolute;
+    top: 25px;
+    bottom: 10px;
+    left: 207px;
+    right: 10px;
 }
 .ampm{
-font-size: 70px;
-position:absolute;
-top: 25px;
-bottom: 10px;
-left: 267px;
-right: 10px;
+    font-size: 70px;
+    position:absolute;
+    top: 25px;
+    bottom: 10px;
+    left: 267px;
+    right: 10px;
 }
 
 
@@ -66,7 +66,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .weather-content {
-    display: flow-root;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     max-width: 220px;
     text-align: center;
@@ -139,9 +138,6 @@ form input[type="submit"]:hover{
 }
 /*Responsive_____________________________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
-    .weather-content{
-        display: flow-root;
-    }
     .ancho{
         width: 102%;
     }
@@ -150,9 +146,6 @@ form input[type="submit"]:hover{
     body{
         display: flex;
         flex-direction: column;
-    }
-    .weather-content{
-        margin: 1% auto 0;
     }
     .alto {
         width: max-content;
@@ -166,9 +159,6 @@ form input[type="submit"]:hover{
         display: flex;
         flex-direction: column;
     }
-    .weather-content{
-        margin: 1% auto 0;
-    }
     .alto {
         width: max-content;
     }
@@ -178,9 +168,6 @@ form input[type="submit"]:hover{
 }
 
 @media (min-width: 375px) and (max-width: 480px) {
-    .weather-content{
-        margin: 1% auto 0;
-    } 
     .alto {
         width: max-content;
     }
