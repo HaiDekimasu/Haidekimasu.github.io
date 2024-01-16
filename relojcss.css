@@ -4,6 +4,7 @@ padding: 0;
 list-style: none;
 }
 body{
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,4 +138,47 @@ form input[type="submit"]:hover{
 .alert-message {
     margin: 24px 0 0;
     color: red!important;
+}
+/*Responsive_____________________________________________________________________________________________________________*/
+@media (min-width: 992px) and (max-width: 1024px){
+    .weather-content{
+        display: flow-root;
+    }
+    .ancho{
+        width: 102%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .weather-content{
+        margin: 1% auto 0;
+    }
+    .alto {
+        width: max-content;
+    }
+    .numero{
+        position: relative;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .weather-content{
+        margin: 1% auto 0;
+    }
+    .alto {
+        width: max-content;
+    }
+    .numero{
+        position: relative;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+    .weather-content{
+        margin: 1% auto 0;
+    } 
+    .alto {
+        width: max-content;
+    }
+    .numero{
+        position: relative;
+    }
 }
