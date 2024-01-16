@@ -20,21 +20,19 @@ body{
 .alto{
     text-shadow: 1px 7px 9px black;
     float: left;
-    margin-left: 30px;
     font-family: "teko";
     font-size: 50px;
     font-weight: bold;
     color: rgba(255,255,255, 0.7);
 }
+.ancho{
+    width: 110%;
+}
 .ancho p{
 display: inline;
 }
 .numero{
-position: absolute;
-top: 70px;
-bottom: 10px;
-left: 25px;
-right: 10px;
+position: relative;
 margin-left: 30px;
 font-family: "teko";
 font-size: 100px;
@@ -69,6 +67,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .weather-content {
+    display: flow-root;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     max-width: 220px;
     text-align: center;
@@ -149,6 +148,10 @@ form input[type="submit"]:hover{
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
     .weather-content{
         margin: 1% auto 0;
     }
@@ -160,6 +163,10 @@ form input[type="submit"]:hover{
     }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
     .weather-content{
         margin: 1% auto 0;
     }
